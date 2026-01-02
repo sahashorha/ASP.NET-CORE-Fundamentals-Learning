@@ -10,6 +10,7 @@ public class Employee
     public int _experience; /// variable or you say this is property
     public int Experience { get; set; }
     public void CalculateSalary()
+
     {
         int salary = _experience * 300000;
         Console.WriteLine("Salary= {0} ",salary);
